@@ -1,0 +1,11 @@
+import requests
+
+import json
+
+url = "https://raw.githubusercontent.com/Algoritmos-y-Programacion-2223-1/api-proyecto/main/matches.json"
+
+r = requests.get (url)
+
+j= r.json()
+
+print (j)

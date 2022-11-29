@@ -1,0 +1,14 @@
+from Restaurante import Restaurante
+
+class Estadio:
+
+    def __init__(self, id: int, nombre: str , capacidad: list(int), ubicacion: str):
+
+        self.id = id 
+        self.nombre = nombre 
+        self.capacidad= capacidad
+        self.ubicacion = ubicacion
+        self.restaurante = []
+
+    def aggRestaurantes (self,restaurante : Restaurante):
+        self.restaurante.append (restaurante``)

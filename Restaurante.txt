@@ -1,0 +1,11 @@
+from Producto import Producto
+
+class Restaurante:
+
+    def __init__(self,nombre :str) -> None:
+        self.nombre = nombre
+        self.productos = []
+    
+    def mostrar (self):
+        productos = ''.join (str(product) + '\n' fro product in self.productos )
+        return (f"Nombre: {self.nombre} \n Productos:\n{productos}")

@@ -1,0 +1,11 @@
+class Equipo:
+
+    def __init__(self, pais: str, fifa_id: int, grupo : str, bandera , id:int):
+        self.pais: str = pais
+        self.fifa_id: int = fifa_id
+        self.grupo : str = grupo
+        self.bandera = bandera
+        self.id: int = id
+
+    def mostrar(self) :
+        return (f"Pais: {self.pais}\nID: {self.fifa_id}\nGrupo: {self.grupo}\n Bandera: {self.bandera}\nID: {self.id}  ")

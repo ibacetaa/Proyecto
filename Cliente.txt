@@ -1,0 +1,11 @@
+from Partido import Partido
+
+class Cliente:
+
+    def __init__(self,nombre: str, edad: int , id: str):
+
+        self.nombre = nombre 
+        self.edad = edad
+        self.id = id
+        self.ticket= None
+ 

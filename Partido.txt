@@ -1,0 +1,16 @@
+from Equipo import Equipo
+
+from datetime import datetime
+
+class Partido:
+
+    def __init__(self, equipo1: Equipo, equipo2: Equipo, fecha: datetime, id_estadio: int, id:int):
+        
+        self.equipo1= equipo1
+        self.equipo2 = equipo2
+        self.fecha = fecha
+        self.id_estadio= id_estadio
+        self.id = ord
+    
+    def mostrar (self):
+        return (f"Partido: {self.equipo1} vs {self.equipo2} \nFecha: {self.fecha} \nEstadio {self.id_estadio} \nId: {self.id} ")
